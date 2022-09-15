@@ -2,9 +2,10 @@
 SQL Server Client Sample [C#, .NET]
 
 ## Opening the Solution
-Using *Visual Studio* please open the `dot-net-sql-client-sample.sln` from the `dot-net-sql-client-sample` folder.
+Using *Visual Studio*, please open the `dot-net-sql-client-sample.sln` from the `dot-net-sql-client-sample` folder.
 
 ## Setting the connection string
+### Local secrets using GUI
 In *Visual Studio*, in the Solution Explorer, please right-click on the `CloudFit.SqlClient.ConsoleApp`  project,
 and select the `Manage User Secrets` menu item.
 ![user secrets](pictures/manage-user-secrets.png)
@@ -16,10 +17,20 @@ Add the following content to the `secrets.json` file, using your actual database
 ```json
 {
   "ConnectionStrings": {
-    "DefaultConnection": "[PLACE_YOUR_CONNECTION_STRING_HERE]"
+    "DefaultConnection": "PLACE_YOUR_CONNECTION_STRING_HERE"
   }
 }
 ```
+### Local secrets using CLI
+Alternatively, you can execute the following command using CLI,
+from the same folder where the `CloudFit.SqlClient.ConsoleApp.csproj` file is located:
+
+```
+dotnet user-secrets set "ConnectionStrings:DefaultConnection" "PLACE_YOUR_CONNECTION_STRING_HERE"
+```
+Local secrets are stored in json files under `%AppData%\Microsoft\UserSecrets`,
+you can manipulate `secrets.json` files with the [CLI](https://docs.microsoft.com/en-us/aspnet/core/security/app-secrets) or edit them directly.
+
 ## Running the app
 Save the `secrets.json` file and run the app, to see return like this:
 
