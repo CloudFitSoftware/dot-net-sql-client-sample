@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudFit.SqlClient.ConsoleApp", "CloudFit.SqlClient.ConsoleApp\CloudFit.SqlClient.ConsoleApp.csproj", "{AE836035-D719-4B56-86AD-69C9C218B39D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudFit.SqlClient.Database", "CloudFit.SqlClient.Database\CloudFit.SqlClient.Database.csproj", "{8884723B-B414-4669-9571-28F6D2F8A2B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE836035-D719-4B56-86AD-69C9C218B39D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE836035-D719-4B56-86AD-69C9C218B39D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE836035-D719-4B56-86AD-69C9C218B39D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE836035-D719-4B56-86AD-69C9C218B39D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8884723B-B414-4669-9571-28F6D2F8A2B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8884723B-B414-4669-9571-28F6D2F8A2B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8884723B-B414-4669-9571-28F6D2F8A2B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8884723B-B414-4669-9571-28F6D2F8A2B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C4EC41F7-ADE7-43A2-BDD2-98069B23C956}
+	EndGlobalSection
+EndGlobal
