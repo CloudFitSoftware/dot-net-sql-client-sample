@@ -1,6 +1,9 @@
 # dot-net-sql-client-sample
 SQL Server Client Sample [C#, .NET]
 
+## Opening the Solution
+Using *Visual Studio* please open the `dot-net-sql-client-sample.sln` from the `dot-net-sql-client-sample` folder.
+
 ## Setting the connection string
 In *Visual Studio*, in the Solution Explorer, please right-click on the `CloudFit.SqlClient.ConsoleApp`  project,
 and select the `Manage User Secrets` menu item.
